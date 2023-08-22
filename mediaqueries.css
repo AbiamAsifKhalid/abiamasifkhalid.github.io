@@ -76,6 +76,7 @@
 @media screen and (max-width:600px){
     #contact, footer{
         height: 40vh;
+        margin-bottom: 1rem;
     }
 
     #profile{
@@ -144,5 +145,15 @@
     .text-container{
         text-align: center;
     }
+
+    .contact-info-container p{
+        font-size: smaller;
+    }
+
+    .nav-links-container{
+        font-size: 0.5rem;
+        gap: 0.5rem;
+    }
+
 }
 
