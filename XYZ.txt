@@ -1,0 +1,158 @@
+<div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>CS50AI</h4>
+                  <p class="skills-text">Fundamentals of Machine Learning & AI</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>3D Modelling and Designing</h4>
+                  <p class="skills-text">Solidworks, Blender3D</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Print Circuit Board Design</h4>
+                  <p class="skills-text">Proteus 8 Professional</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Embedded Systems</h4>
+                  <p class="skills-text">Tiva C Series Launchpad Kit, Arduino</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Electronics</h4>
+                  <p class="skills-text">Audio Amplifier, H Bridge Motor Driver, PWM without IC's
+                  </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Digital Logic Design</h4>
+                  <p class="skills-text">Xilinx (HDL), Modulo-7 Up-Down Counter with Reset and Pause
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           <!-- <div class="skills-details-container">
+            <h2 class="skills-sub-title">Certifications</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>CS50 AI</h4>
+                  <p>Date of Completion: July 2023</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Fundamentals of Digital Marketing</h4>
+                  <p>Date of Completion: June 2023</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Data Science 101</h4>
+                  <p>Date of Completion: January 2023</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Elements of AI</h4>
+                  <p>Date of Completion: August 2022</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Junior Developer Internship</h4>
+                  <p>June 2022 to August 2022 Using Google AppsScript</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>GE Virtual Experience Program</h4>
+                  <p>Date of Completion: August 2022</p>
+                </div>
+              </article>
+            </div>
+          </div> -->
