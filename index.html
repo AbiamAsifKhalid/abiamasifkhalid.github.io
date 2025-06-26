@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abiam Asif Khalid</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo" onclick="location.href='./'">Abiam Asif Khalid</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#fyp">FYP</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#models">3D-Models</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#IXvisits">Visits</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Abiam Asif Khalid</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#fyp" onclick="toggleMenu()">FYP</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#models" onclick="toggleMenu()">3D-Models</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#IXvisits" onclick="toggleMenu()">Visits</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="./assets/profile-pic.webp" alt="Abiam Profile Picture" />
+      </div>
+
+      <div class="section_text">
+        <p class="section_text_p1">Greetings, I am</p>
+
+        <h1 class="title">Abiam Asif Khalid</h1>
+        <p class="section_text_p2 typewriter special">Mechatronics Engineer</p>
+
+        <div class="btn-container">
+          <button
+            class="btn btn-color2"
+            onclick="window.open('./assets/Resume_Abiam_Asif_Khalid.pdf')"
+          >
+            Resume
+          </button>
+          <button class="btn btn-color1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+
+        <div id="socials-container">
+
+          <a href="https://www.linkedin.com/in/abiam-asif-khalid-b3112124b/" target="_blank">
+            <img
+            src="./assets/linkedin.webp"
+            alt="Linkedin Profile"
+            class="icon"
+            />
+          </a>
+
+          <a href="https://github.com/AbiamAsifKhalid" target="_blank">
+            <img
+            src="./assets/github.webp"
+            alt="Github Account"
+            class="icon"
+            />
+          </a>
+          
+          <a href="https://medium.com/@abiamasifkhalid77" target="_blank">
+            <img
+              src="./assets/medium.webp"
+              alt="Medium Account"
+              class="icon"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section_text_p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img
+            src="./assets/about-pic2.webp"
+            alt="Profile Picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.webp"
+                alt="experience icon"
+                class="icon"
+              />
+              <h3>Occupation</h3>
+              <p>
+                Senior Year <br />
+                CGPA: 3.96/4.00
+              </p>
+            </div>
+
+            <div class="details-container">
+              <img
+                src="./assets/education.webp"
+                alt="education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Mechatronics & Control Engineering<br />CAIE A'Levels</p>
+            </div>
+          </div>
+
+          <div>
+            <p class="text-container">
+              Motivated Mechatronics Engineering student seeking for internship
+              or co-op position to obtain hands-on experience and apply
+              theoretical knowledge. Eager for development and implementation of
+              mechatronics system, learn new technologies. Goal-oriented and
+              passionate about applying innovative solutions to realworld
+              challenges.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.webp"
+        alt="arrow icon"
+        class="arrow icon"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="experience">
+      <p class="section_text_p1">Learn About My</p>
+      <h1 class="title">Experience</h1>
+        <div class="about-containers">
+          <div class="skillsection-details-container">
+            <h2 class="skills-sub-title">Internships</h2>
+
+            <div class="article-container">
+              <article class="exp-article">
+                <img
+                  src="./assets/bluelogo.webp"
+                  alt="Experience Icon"
+                  class="exp-images"
+                />
+                <div>
+                  <h3 class="exphead">Intern at RPS Team</h3>
+                  <p class="exp-text">Two Month Internship at Research and Proposals Team of Avanceon. Learning Design & Selection of Industrial Control Systems.</p>
+                </div>
+              </article>
+
+              <article class="exp-article">
+                <img
+                  src="./assets/biomed.png"
+                  alt="Experience Icon"
+                  class="exp-images"
+                />
+                <div>
+                  <h3 class="exphead">AR Intern at BIOMED5.0</h3>
+                  <p class="exp-text">Two-Month Internship on Biomedical IoT and AR under the BIOMED5.0 Project. Integrated sensor data and developing an AR based Android app.</p>
+                </div>
+              </article>
+
+              <article class="exp-article">
+                <img
+                  src="./assets/redlogo.webp"
+                  alt="Experience Icon"
+                  class="exp-images"
+                />
+                <div>
+                  <h3 class="exphead">Workflow Automation Intern</h3>
+                  <p class="exp-text">Six-Week Internship Focused on Automating Google Workspace for Streamlined Workflows, Data Optimization, and Reporting.</p>
+                </div>
+              </article>
+
+              <article class="exp-article">
+                <img
+                  src="./assets/redlogo.webp"
+                  alt="Experience Icon"
+                  class="exp-images"
+                />
+                <div>
+                  <h3 class="exphead">Junior Developer Intern</h3>
+                  <p class="exp-text">Four-Week Internship Focused on Database Management and Workflow System Using Google App Scripts</p>
+                </div>
+              </article>
+            </div>
+
+
+          </div>
+        </div>
+      <img
+        src="./assets/arrow.webp"
+        alt="arrow icon"
+        class="arrow icon"
+        onclick="location.href='./#fyp'"
+      />
+
+    </section>
+
+    <section id="fyp">
+      <p class="section_text_p1">Final Year Project (Bachelor's)</p>
+      <h1 class="title">Augmented CPR+</h1>
+
+      <div class="visit-everything">
+        
+        
+        <div class="Visit-img">
+            <a href="https://drive.google.com/drive/u/5/folders/160d5h6FP6GAzGm3KGfz_Vda6-XmcEDzc" target="_blank">
+              <img src="./assets/FYP-Poster-copy.png" alt="FYP Poster" class="poster" />
+            </a>
+        </div>
+       
+        <div class="fyp-section-details-container visit-text">
+          <h2 class="fyp-heading">Details</h2>
+          <p class="fyp-p">As the team lead of Augmented CPR+, We developed <strong>next-generation CPR training system</strong> designed to revolutionize emergency preparedness. Built on fusion of Augmented Reality and CPR Training, the system provides <strong>real-time feedback on compression rate and depth,</strong> guiding users through every critical step of high-quality CPR. Visual AR cues assist with <strong>rhythm, hand placement, and airway management,</strong> while an interactive simulation of the RESQCPR (composed of both <strong>RESQPUMP and RESQPOD</strong>) enables safe, advanced CPR training. Our device features offline capability through MQTT communication with upto 8 devices, allowing it to run seamlessly without internet. Versatile in design, it can operate standalone, with a mobile app, or through AR glasses. The compact, ergonomic hardware includes a custom 3D-printed casing and magnetically attachable profiles for different chest anatomies. Augmented CPR+ was awarded <strong>1st Prize in the HCD 3.0 Competition</strong> by the MADE Foundation, received a <strong>Special Prize at DUHS-DICE</strong> innovative Exhibition, secured the <strong>NGIRI Ignite Scholarship,</strong> and proudly represented UET Lahore at <strong>Pintech Expo 2025</strong>.</p>
+        </div>
+        
+      </div>
+
+      <!-- <div class="visit-everything">
+        <div class="Visit-Img img-containers">
+          
+          <img class="img3" src="./assets/Secret/compressed/IMG_1012.webp" data-alt="Würzburg Residence">
+          <img class="img3" src="./assets/Secret/compressed/IMG_E1446.webp" alt="Würzburg Campus THWS">
+          <img class="img4" src="./assets/Secret/compressed/IMG_1519.webp" alt="Röntgen Laboratory">
+          
+          <img class="img1" src="./assets/Secret/compressed/IMG_0590.webp" alt="Schweinfurt Campus THWS">
+          <img class="img2" src="./assets/Secret/compressed/IMG_0843.webp" alt="Schaeffler Insutry, Schweinfurt">
+        </div>
+        <div class="skillsection-details-container visit-text">
+          <h2 class="visit-heading">My Experience</h2>
+          <p class="visit-p">In November 2023, I had the privilege of representing Pakistan at the Robotics Exchange Week hosted by THWS in Germany under the World Twin Programme. The experience combined cultural immersion with technical learning, including attending the 2nd International Robotics Forum, participating in hands-on workshops, and exploring Germany's rich heritage. Connecting with peers from around the world further enriched this unforgettable experience.</p>
+        </div>
+      </div>      -->
+
+      <img
+        src="./assets/arrow.webp"
+        alt="arrow icon"
+        class="arrow icon"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+
+    <section id="skills">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Proficiencies</h1>
+
+        <div class="about-containers">
+          <div class="skillsection-details-container">
+            <h2 class="skills-sub-title">Skills & Certifications</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4 class="skills-head">CS50AI</h4>
+                  <p class="skills-text">Fundamentals of ML & AI</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Intercultural Training</h4>
+                  <p class="skills-text">Training for Austria by THWS</p>                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Starting Up</h4>
+                  <p class="skills-text">Entrepreneurship Foundations</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Product Development</h4>
+                  <p class="skills-text">Human Centered Design</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Elements of AI</h4>
+                  <p class="skills-text">Basics of AI</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>ROS2 Development</h4>
+                  <p class="skills-text">ROS based Simulations</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Programming</h4>
+                  <p class="skills-text">Python, MATLAB, C Language</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Microcontrollers</h4>
+                  <p class="skills-text">Arduino, ESP, Tiva C Series</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Modelling & Designing</h4>
+                  <p class="skills-text">Solidworks, Blender3D</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Hydraulics, Pneumatics</h4>
+                  <p class="skills-text">Systems based on H&P</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Augmented Reality</h4>
+                  <p class="skills-text">Unity based AR</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Robotics</h4>
+                  <p class="skills-text">Simulink, MATLAB, NI Based</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Instrumentation</h4>
+                  <p class="skills-text">Sensors and Circuits </p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Digital Logic</h4>
+                  <p class="skills-text">Combinational and Sequential Circuits</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Print Circuit Board</h4>
+                  <p class="skills-text">Proteus8 and Fabrication </p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.webp"
+                  alt="Skills Icon"
+                  class="skills-icon"
+                />
+                <div>
+                  <h4>Documentation Tools</h4>
+                  <p class="skills-text">Microsoft Office and Foxit Editor</p>
+                </div>
+              </article>
+              
+            </div>
+
+          </div>
+        </div>
+      <img
+        src="./assets/arrow.webp"
+        alt="arrow icon"
+        class="arrow icon"
+        onclick="location.href='./#models'"
+      />
+    </section>
+
+    <section id="models">
+      <p class="section_text_p1">Delve Into My</p>
+      <h1 class="title">3D Creations</h1>
+      
+      <div class="slider-wrapper container">
+        <!-- <button class="arrow-btn left" onclick="moveLeft()">&#10094;</button>
+        <button class="arrow-btn right" onclick="moveRight()">&#10095;</button> -->
+        <button class="arrow-btn left" onclick="moveLeft()">
+          <svg width="42" height="42" viewBox="0 0 24 24" fill="none">
+            <path d="M15 6L9 12L15 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <button class="arrow-btn right" onclick="moveRight()">
+          <svg width="42" height="42" viewBox="0 0 24 24" fill="none">
+            <path d="M9 6L15 12L9 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="slider">
+            <img id="slide1" src="./assets/Secret/0201.webp" alt="Model-1">
+            <img id="slide2" src="./assets/Secret/0126.webp" alt="Model-2">
+            <img id="slide3" src="./assets/Secret/0264.webp" alt="Model-3">
+            <img id="slide4" src="./assets/Secret/1.webp" alt="Model-4">
+            <img id="slide4" src="./assets/Secret/New1.png" alt="Model-5">
+            <img id="slide5" src="./assets/Secret/New2.png" alt="Model-6">
+            <img id="slide6" src="./assets/Secret/New3.jpg" alt="Model-7">
+            <img id="slide7" src="./assets/Secret/New4.jpg" alt="Model-8">
+            
+            <img id="slide9" src="./assets/Secret/V6 Twin Turbo.webp" alt="Model-9">
+            <img id="slide10" src="./assets/Secret/Picture1.webp" alt="Model-10">
+            <img id="slide11" src="./assets/Secret/Picture2.webp" alt="Model-11">
+            <img id="slide12" src="./assets/Secret/0024.webp" alt="Model-12">
+            <img id="slide13" src="./assets/Secret/0092.webp" alt="Model-13">
+            <img id="slide14" src="./assets/Secret/4.webp" alt="Model-14">
+            <img id="slide15" src="./assets/Secret/3.webp" alt="Model-15">
+            <img id="slide16" src="./assets/Secret/Screenshot 2024-08-17 143441.webp" alt="Model-16">
+            <img id="slide17" src="./assets/Secret/0083.webp" alt="Model-17">
+            <img id="slide18" src="./assets/Secret/2.webp" alt="Model-18">
+            <img id="slide19" src="./assets/Secret/Screenshot 2024-08-17 142635.webp" alt="Model-19">
+        </div>
+        <div class="model">
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide1')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide2')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide3')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide4')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide5')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide6')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide7')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide8')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide9')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide10')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide11')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide12')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide13')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide14')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide15')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide16')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide17')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide18')"></a>
+            <a href="javascript:void(0);" onclick="scrollToSlide('slide19')"></a>
+        </div>
+    </div> 
+    <img
+    src="./assets/arrow.webp"
+    alt="arrow icon"
+    class="arrow icon"
+    onclick="location.href='./#projects'">
+    </section>
+
+    <section id="projects">
+      <p class="section_text_p1">Browse My Recent</p>
+      <h3 class="title">Projects</h3>
+      <div class="projects-details-container">
+        <div class="project-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Screenshot_23.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="project-sub-title">QR Line Follower</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color2 project-btn"
+                onclick="window.open('https://drive.google.com/drive/folders/1UKyf7rnM6WLKV3CctJ8YcrkjsCxFxPpN?usp=drive_link')"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Picture5.webp"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="project-sub-title">Autonomous Robot</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color2 project-btn"
+                onclick="window.open('https://drive.google.com/drive/folders/1yG0kZBpEbZdx23ywFeepE76DcB6kehxy?usp=sharing')"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Picture6.webp"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="project-sub-title">Ball Plate System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color2 project-btn"
+                onclick="window.open('https://drive.google.com/drive/folders/1J48sT9ms6vLn15ejNihuLSZUusmF_uHo?usp=sharing')"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Picture4.webp"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h2 class="project-sub-title">Gluing Station</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color2 project-btn"
+                onclick="window.open('https://drive.google.com/drive/folders/162x8DtjJZKJhjIqWEuH_6BHQexucTavB?usp=sharing')"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="projects-details-container">
+        <div class="project-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/picture7.webp"
+                alt="Project 5"
+                class="project-img"
+              />
+            </div>
+            <h2 class="project-sub-title">Switch Bot</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color2 project-btn"
+                 onclick="window.open('https://drive.google.com/drive/folders/17EHa2xnA0HZiujRDlM8DSoXoFXIFMWNO?usp=sharing')"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/picture1.webp"
+                alt="Project 6"
+                class="project-img"
+              />
+            </div>
+            <h2 class="project-sub-title">Portable Ventilator</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color2 project-btn"
+                onclick="window.open('https://drive.google.com/drive/folders/17tY3ebX8C8w__6FdaTrguBo2WHh1aqDy?usp=sharing')"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/picture2.webp"
+                alt="Project 7"
+                class="project-img"
+              />
+            </div>
+            <h2 class="project-sub-title">AI Virtual Mouse</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color2 project-btn"
+                onclick="window.open('https://github.com/AbiamAsifKhalid/AI_Virtual_Mouse.git')"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/more.webp"
+                alt="More Projects"
+                class="project-img"
+              />
+            </div>
+            <h2 class="project-sub-title">More Projects</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color2 project-btn"
+                onclick="window.open('https://drive.google.com/drive/folders/10q3CKGEUJ5A31BZpxLLrwdiFWl37znSF?usp=drive_link')"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.webp"
+        alt="arrow icon"
+        class="arrow icon"
+        onclick="location.href='./#IXvisits'"
+      />
+    </section>
+
+    <section id="IXvisits">
+      <p class="section_text_p1">Exchange Week in</p>
+      <h3 class="title">Germany (THWS)</h3>
+      <div class="visit-everything">
+        <div class="Visit-img img-containers-visit">
+          <div >        
+            <img class="img0" src="./assets/Secret/compressed/IMG_E1446.webp" alt="Würzburg Campus THWS">
+          </div>
+          <img class="img3" src="./assets/Secret/compressed/IMG_1012.webp" data-alt="Würzburg Residence">
+  
+          <img class="img4" src="./assets/Secret/compressed/IMG_1519.webp" alt="Röntgen Laboratory">
+          
+          <img class="img1" src="./assets/Secret/compressed/IMG_0590.webp" alt="Schweinfurt Campus THWS">
+          <img class="img2" src="./assets/Secret/compressed/IMG_0843.webp" alt="Schaeffler Insutry, Schweinfurt">
+        </div>
+        <div class="visit-section-details-container visit-text">
+          <h2 class="visit-heading">My Experience</h2>
+          <p class="visit-p">In November 2023, I had the privilege of representing Pakistan at the Robotics Exchange Week hosted by THWS in Germany under the World Twin Programme. The experience combined cultural immersion with technical learning, including attending the 2nd International Robotics Forum, participating in hands-on workshops, and exploring Germany's rich heritage. Connecting with peers from around the world further enriched this unforgettable experience.</p>
+        </div>
+      </div>     
+      <img
+        src="./assets/arrow.webp"
+        alt="arrow icon"
+        class="arrow icon"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+
+    <section id="contact">
+      <p class="section_text_p1">Get In Touch</p>
+      <h3 class="title">Contact Me</h3>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.webp" alt="Email Icon" class="icon contact-icon email-icon">
+          <p><a href="mailto:abiamasifkhalid23@gmail.com">abiamasifkhalid23@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.webp" alt="Linkedin Icon" class="icon contact-icon">
+          <p><a href="https://www.linkedin.com/in/abiam-asif-khalid-b3112124b/">Linkedin</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+      </nav>
+      <p>Copyright &#169 2023 Abiam Asif Khalid. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
